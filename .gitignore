@@ -1,0 +1,10 @@
+# H2 Databases
+*.mv.db
+*.trace.db
+
+# Maven/IDE (standard)
+target/
+.idea/
+*.iml
+.vscode/
+
