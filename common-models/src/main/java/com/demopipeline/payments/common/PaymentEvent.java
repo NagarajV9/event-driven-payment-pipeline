@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.Instant;
 
 /**
@@ -14,8 +16,10 @@ import java.time.Instant;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PaymentEvent {
+public class PaymentEvent implements Serializable {
 
+    @Serial
+    private static final long serialVersionUID = 1L;
     private String eventId;               // Unique event ID (UUID)
     private PaymentEventType eventType;   // CREATED, VALIDATED, ROUTED, etc.
     private String paymentId;             // ID from PaymentRequest
