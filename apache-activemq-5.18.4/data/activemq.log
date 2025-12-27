@@ -1,0 +1,42 @@
+2025-12-20 15:10:12,343 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/nagarajvaigundaraman/Project/event-driven-payment-pipeline/apache-activemq-5.18.4/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,344 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/Users/nagarajvaigundaraman/Project/event-driven-payment-pipeline/apache-activemq-5.18.4/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,352 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-12-20 15:10:12,352 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-12-20 15:10:12,421 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,421 | INFO  | PListStore:[/Users/nagarajvaigundaraman/Project/event-driven-payment-pipeline/apache-activemq-5.18.4/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-12-20 15:10:12,421 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,421 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,541 | INFO  | Apache ActiveMQ 5.18.4 (localhost, ID:Nagarajs-MacBook-Air.local-52459-1766223612425-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,547 | INFO  | Listening for connections at: tcp://Nagarajs-MacBook-Air.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-12-20 15:10:12,548 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-12-20 15:10:12,550 | INFO  | Listening for connections at: amqp://Nagarajs-MacBook-Air.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-12-20 15:10:12,550 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-12-20 15:10:12,552 | INFO  | Listening for connections at: stomp://Nagarajs-MacBook-Air.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-12-20 15:10:12,552 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-12-20 15:10:12,553 | INFO  | Listening for connections at: mqtt://Nagarajs-MacBook-Air.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-12-20 15:10:12,553 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-12-20 15:10:12,555 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-12-20 15:10:12,581 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-12-20 15:10:12,600 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3ee0b4f7{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-12-20 15:10:12,615 | INFO  | Listening for connections at ws://Nagarajs-MacBook-Air.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-12-20 15:10:12,615 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-12-20 15:10:12,615 | INFO  | Apache ActiveMQ 5.18.4 (localhost, ID:Nagarajs-MacBook-Air.local-52459-1766223612425-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,615 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-12-20 15:10:12,777 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-12-20 15:10:12,777 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-12-20 16:56:04,018 | INFO  | Apache ActiveMQ 5.18.4 (localhost, ID:Nagarajs-MacBook-Air.local-52459-1766223612425-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2025-12-20 16:56:04,022 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2025-12-20 16:56:04,022 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-12-20 16:56:04,022 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-12-20 16:56:04,022 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2025-12-20 16:56:04,023 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2025-12-20 16:56:04,023 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-12-20 16:56:04,023 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2025-12-20 16:56:04,023 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: mqtt://0.0.0.0:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-12-20 16:56:04,028 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2025-12-20 16:56:04,031 | INFO  | PListStore:[/Users/nagarajvaigundaraman/Project/event-driven-payment-pipeline/apache-activemq-5.18.4/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2025-12-20 16:56:04,032 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2025-12-20 16:56:04,032 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2025-12-20 16:56:04,032 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2025-12-20 16:56:04,053 | INFO  | Apache ActiveMQ 5.18.4 (localhost, ID:Nagarajs-MacBook-Air.local-52459-1766223612425-0:1) uptime 1 hour 45 minutes | org.apache.activemq.broker.BrokerService | Thread-20
+2025-12-20 16:56:04,053 | INFO  | Apache ActiveMQ 5.18.4 (localhost, ID:Nagarajs-MacBook-Air.local-52459-1766223612425-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
